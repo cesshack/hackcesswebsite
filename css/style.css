@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;1,800&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Exo:700");
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap');
+
+*{
+	font-family: "Ubuntu", sans-serif;
+
+}
+
+a.navbar-brand {
+    font-family: 'Ubuntu', 'sans-serif';
+    font-size: 32px;
+}
+
+h1{
+    font-size: 32px;
+    margin-bottom: 450px;
+    text-align: center;
+    font-family: 'Ubuntu', 'sans-serif';
+}
+h1 a{
+    text-decoration: none;
+    color : #00ff00;
+}
+a.nav-link{
+    text-align: center;
+    font-family: 'Ubuntu','sans-serif';
+    font-size: 32px;
+}
+a.dropdown-item{
+    text-align: center;
+    font-family: 'Ubuntu','sans-serif';
+    font-size: 32px;
+}
+span.wrap{
+    font-size: 32px;
+}
+
+@media screen and (max-width: 660px) {
+    div.container-fluid a{
+        font-size: 32px;
+
+    }
+    span.wrap{
+        font-size: 32px;
+    }
+	div.container-fluid{
+		display: flex;
+	}
+    div.sites h3{
+        font-size: 16px;
+    }
+    div.sites p{
+        font-size: 75%;
+    }
+    div.formations h3{
+        font-size: 16px;
+        background-repeat: repeat;
+    }
+    div.formations p{
+        font-size: 75%;
+    }
+    div.aide h3{
+        font-size: 16px;
+    }
+    div.aide p{
+        font-size: 75%;
+    }
+  }
+
+button.navbar-toggler{
+    margin-right: 10px;
+}
+
+.lettre{
+    font-size: 16px;
+}
+@media screen and (min-width: 900px) {
+    .lettre {
+      font-size: 170px;
+    }
+    a.nav-link{
+        font-size: 30px;
+        margin: 18px;
+    }
+    span.wrap{
+        font-size: 64px;
+    }
+	
+ 
+
+  }
+
+.card a {
+    text-decoration: none;
+    color: antiquewhite;
+    font-size: 32px;
+}
+.formations{
+    list-style-type : none;
+    text-align: center;
+    color: blueviolet;
+    z-index: 1;
+    font-size: 100%;
+}
+
+.sites{
+    list-style-type : none;
+    text-align: center;
+    color: blueviolet;
+    z-index: 1;
+    font-size: 100%;
+}
+
+.aide{
+    list-style-type : none;
+    color: blueviolet;
+    z-index: 1;
+    font-size: 100%;
+}
+
+html {
+    height: 100%;
+    background: #110101;
+    font-family: 'Ubuntu', sans-serif;
+    
+  }
+p.card-texte{
+    background-color: #110101;
+    color: whitesmoke;
+}
+
