@@ -6,6 +6,7 @@
 
 *{
 	font-family: "Ubuntu", sans-serif;
+    background-repeat: no-repeat;
 
 }
 
@@ -132,3 +133,6 @@ p.card-texte{
     color: whitesmoke;
 }
 
+footer{
+    background: black;
+}
