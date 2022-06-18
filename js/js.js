@@ -1,3 +1,6 @@
+window.matchMedia('(prefers-color-scheme: dark)').matches
+
+
 var TxtType = function(el, toRotate, period) {
     this.toRotate = toRotate;
     this.el = el;
